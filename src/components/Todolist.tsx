@@ -34,7 +34,7 @@ const TodoList = ({ todos, onDelete, onToggle }: Props) => {
 
           <button
             onClick={() => onDelete(todo._id)}
-            className="bg-red-500 text-white px-3 py-1 rounded"
+            className="bg-red-800 text-white px-3 py-1 rounded"
           >
             Delete
           </button>
