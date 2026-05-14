@@ -26,7 +26,7 @@ const TodoForm = ({ onAdd }: Props) => {
                 className="border p-2 rounded w-full"
             />
 
-            <button className="bg-blue-500 text-white px-4 rounded">
+            <button className="bg-orange-500 text-white px-4 rounded">
                 Add
             </button>
         </form>
