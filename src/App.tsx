@@ -9,7 +9,7 @@ interface Todo {
   completed: boolean;
 }
 
-const API = "/api/todos";
+const API = "http:localhost:5000/api/todos";
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
